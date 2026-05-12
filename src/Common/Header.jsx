@@ -35,13 +35,13 @@ function Header() {
                   </Link>
                 </div>
               </div>
- <button
-  className="custom-menu-btn uk-hidden@m "
-  type="button"
-  data-uk-toggle="target: #offcanvas"
->
-   <span className="fa fa-bars"></span>
-</button>
+              <button
+                className="custom-menu-btn uk-hidden@m "
+                type="button"
+                data-uk-toggle="target: #offcanvas"
+              >
+                <span className="fa fa-bars"></span>
+              </button>
             </div>
           </div>
         </div>
@@ -74,14 +74,7 @@ function Header() {
               <Link to="/sign-in">Sign In</Link>
             </li>
 
-            <li className="uk-margin-top">
-              <Link
-                className="uk-button uk-button-primary uk-width-1-1"
-                to="/sign-up"
-              >
-                Sign Up
-              </Link>
-            </li>
+ 
           </ul>
         </div>
       </div>
