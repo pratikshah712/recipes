@@ -9,6 +9,7 @@ import Dishtype from "./Pages/Dishtype";
 import Search from "./Pages/search";
 import Fetchdata from "./Pages/search";
 
+
 function App() {
   return (
     <>
